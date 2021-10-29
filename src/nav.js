@@ -1,5 +1,4 @@
 import './App.css';
-import {Btnp, Btns, Btnt} from './btn.js';
 
 const Nav = () => {
   return (

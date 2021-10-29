@@ -1,7 +1,7 @@
 @layer components {
   .btn-primary {
     @apply bg-blue-700 text-gray-100 p-3 text-xl rounded-lg
-    hover:bg-blue-600 transform transition-all
+    hover:bg-blue-600 transform transition-all w-full
     active:translate-y-0.5 active:bg-blue-500 m-1;
   }
   .btn-secondary {
@@ -15,7 +15,7 @@
     active:translate-y-0.5 active:bg-gray-400 m-1;
   }
   .section {
-    @apply top-0 shadow-lg
+    @apply top-0 shadow-lg flex flex-nowrap flex-row
     w-11/12 bg-gray-900 m-auto p-2 rounded-xl;
   }
   .section-flex {
