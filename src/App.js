@@ -14,7 +14,7 @@ function App() {
   
   var Other = "<a href='https://discord.com/api/oauth2/authorize?client_id=887830738391662592&amp;permissions=0&amp;scope=bot' class='btn-tertiary' target='_blank' rel='noopener noreferrer'>Invite Donkey Bot to your server! (Click me)</a>";
   
-  var SimpsonSells = "<div class='w-full h-full bg-white rounded-lg'>" +
+  var SimpsonSells = "<div class='w-full h-full bg-white rounded'>" +
     "<p style='text-align: center;'>" +
     "<span style='font-family: Impact, Charcoal, sans-serif; font-size: 72px;'>" +
     "Simpson Sells</span>" +
@@ -34,8 +34,8 @@ function App() {
     "<p style='text-align: center;'><br><a class='pure-button' href='#' download='https://i.ibb.co/5FWsvqW/Simpson4-5.png';' width='100' height='25'>Download</button></p></div>";
   
   var tb = "<h1 class='text-white text-center text-5xl'>TurboMan!</h1>" +
-    "<label class='text-xl text-white'>**DOESNT WORK** Version : </label><select onClick='tbv' name='Versions' id='Versions'><option name='B111'>B1.1.1</option><option name='B11'>B1.1</option><option name='B10'>B1.0</option><option name='A331'>A3.3.1</option></select>" +
-    "<br /><iframe id='tbv' class='h-screen' src='../B1.1.1/index.html'></iframe><br /> <B111 />";
+    "<br /><iframe id='tbv' class='h-screen' src='../B1.1.1/index.html'></iframe><br /> <B111 />" +
+    "<iframe src='https://deadsimplechat.com/kM-pjLD77' class='w-11/12 m-auto rounded-lg' style='height: 90vh;'></iframe><br />";
   
   function iframe(id, content) {
     document.getElementById(id).innerHTML = content;

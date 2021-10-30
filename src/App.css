@@ -1,26 +1,26 @@
 @layer components {
   .btn-primary {
-    @apply bg-blue-700 text-gray-100 p-3 text-xl rounded-lg
-    hover:bg-blue-600 transform transition-all w-full
+    @apply bg-blue-700 text-gray-100 p-3 text-xl rounded
+    hover:bg-blue-600 transform transition-all w-full text-center
     active:translate-y-0.5 active:bg-blue-500 m-1;
   }
   .btn-secondary {
-    @apply bg-green-600 text-gray-100 p-3 text-xl rounded-lg
-    hover:bg-green-500 transform transition-all
+    @apply bg-green-600 text-gray-100 p-3 text-xl rounded
+    hover:bg-green-500 transform transition-all text-center
     active:translate-y-0.5 active:bg-green-400 m-1;
   }
   .btn-tertiary {
-    @apply bg-gray-600 text-gray-100 p-3 text-xl rounded-lg
-    hover:bg-gray-500 transform transition-all
+    @apply bg-gray-600 text-gray-100 p-3 text-xl rounded
+    hover:bg-gray-500 transform transition-all text-center
     active:translate-y-0.5 active:bg-gray-400 m-1;
   }
   .section {
     @apply top-0 shadow-lg flex flex-wrap sm:flex-nowrap
-    w-11/12 bg-gray-900 m-auto p-2 rounded-xl;
+    w-11/12 bg-gray-900 m-auto p-2 rounded;
   }
   .section-flex {
     @apply top-0 shadow-lg flex flex-col text-center
-    w-11/12 bg-gray-900 m-auto p-2 rounded-xl;
+    w-11/12 bg-gray-900 m-auto p-2 rounded;
   }
 }
 
