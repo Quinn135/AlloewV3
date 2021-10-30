@@ -10,7 +10,7 @@ function App() {
     "<br /><h4 class='text-lg text-white'>Quinn : Developer</h4>" +
     "<br /><h4 class='text-lg text-white'>Flynn : Artist</h4>" +
     "<br /><h4 class='text-lg text-white'>Jacob : Map Designer</h4>" +
-    "<br /><h4 class='text-lg text-white'>Micheal, Richard, Quinn, Flynn, Jacob : Game Tester</h4>";
+    "<br /><h4 class='text-lg text-white'>Mychael, Richard, Quinn, Flynn, Jacob : Game Tester</h4>";
   
   var Other = "<a href='https://discord.com/api/oauth2/authorize?client_id=887830738391662592&amp;permissions=0&amp;scope=bot' class='btn-tertiary' target='_blank' rel='noopener noreferrer'>Invite Donkey Bot to your server! (Click me)</a>";
   
