@@ -15,7 +15,7 @@
     active:translate-y-0.5 active:bg-gray-400 m-1;
   }
   .section {
-    @apply top-0 shadow-lg flex flex-nowrap flex-row
+    @apply top-0 shadow-lg flex flex-wrap sm:flex-nowrap
     w-11/12 bg-gray-900 m-auto p-2 rounded-xl;
   }
   .section-flex {
