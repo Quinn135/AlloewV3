@@ -12,7 +12,8 @@ function App() {
     "<br /><h4 class='text-lg text-white'>Jacob : Map Designer</h4>" +
     "<br /><h4 class='text-lg text-white'>Mychael, Richard, Quinn, Flynn, Jacob : Game Tester</h4>";
   
-  var Other = "<a href='https://discord.com/api/oauth2/authorize?client_id=887830738391662592&amp;permissions=0&amp;scope=bot' class='btn-tertiary' target='_blank' rel='noopener noreferrer'>Invite Donkey Bot to your server! (Click me)</a>";
+  var Other = "<a href='https://discord.com/api/oauth2/authorize?client_id=887830738391662592&amp;permissions=0&amp;scope=bot' class='btn-tertiary' target='_blank' rel='noopener noreferrer'>Invite Donkey Bot to your server! (Click me)</a>" +
+    "";
   
   var SimpsonSells = "<div class='w-full h-full bg-white rounded'>" +
     "<p style='text-align: center;'>" +
@@ -33,8 +34,8 @@ function App() {
     "<p style='text-align: center;'><br><style>img {border: 2px solid #555;}</style><img class='m-auto' src='https://i.ibb.co/5FWsvqW/Simpson4-5.png' width='auto' height='720'></p> <p style='text-align: center;'><br></p>" +
     "<p style='text-align: center;'><br><a class='pure-button' href='#' download='https://i.ibb.co/5FWsvqW/Simpson4-5.png';' width='100' height='25'>Download</button></p></div>";
   
-  var tb = "<h1 class='text-white text-center text-5xl'>TurboMan B2.0 Preview 1</h1><br /><p class='text-white text-xl'>Put any bugs in the chat below, thanks!</p>" +
-    "<br /><iframe id='tbv' class='h-screen w-11/12 m-auto' src='../B2.0S1/index.html'></iframe><br />" +
+  var tb = "<h1 class='text-white text-center text-5xl'>TurboMan B2.0 Snapshot 2</h1><br /><p class='text-white text-xl'>Put any bugs in the chat below, thanks!</p>" +
+    "<br /><iframe id='tbv' class='h-screen w-11/12 m-auto' src='../B2.0S2/index.html'></iframe><br />" +
     "<iframe src='https://deadsimplechat.com/kM-pjLD77' class='w-11/12 m-auto rounded-lg' style='height: 90vh;'></iframe><br />";
   
   function iframe(id, content) {
