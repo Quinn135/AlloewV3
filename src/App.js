@@ -34,7 +34,7 @@ function App() {
     "<p style='text-align: center;'><br><style>img {border: 2px solid #555;}</style><img class='m-auto' src='https://i.ibb.co/5FWsvqW/Simpson4-5.png' width='auto' height='720'></p> <p style='text-align: center;'><br></p>" +
     "<p style='text-align: center;'><br><a class='pure-button' href='#' download='https://i.ibb.co/5FWsvqW/Simpson4-5.png';' width='100' height='25'>Download</button></p></div>";
   
-  var tb = "<h1 class='text-white text-center text-5xl'>TurboMan B2.0 Snapshot 2</h1><br /><p class='text-white text-xl'>Put any bugs in the chat below, thanks!</p>" +
+  var tb = "<h1 class='text-white text-center text-5xl'>TurboMan V1.0 Snapshot 3</h1><br /><p class='text-white text-xl'>Put any bugs in the chat below, thanks!</p>" +
     "<br /><iframe id='tbv' class='w-11/12 m-auto' style='height: 90vh;' src='../V1.0S3/index.html'></iframe><br />" +
     "<iframe src='https://deadsimplechat.com/kM-pjLD77' class='w-11/12 m-auto rounded-lg' style='height: 90vh;'></iframe><br />";
   
