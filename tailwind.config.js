@@ -3,6 +3,15 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      keyframes: {
+        up: {
+          '0%': { top: '1000px' },
+          '100%': {top: '0px'},
+        },
+      },
+      animation: {
+        'move-up': 'up 1s ease-in-out',
+      },
       colors: {
         gray: {
           900: "#202225",
@@ -21,6 +30,7 @@ module.exports = {
     extend: {
       backgroundColor: ['active'],
       translate: ['active'],
+      borderColor: ['hover', 'active'],
     },
     plugins: [],
   }
