@@ -14,7 +14,7 @@ function App() {
     "<br /><h4 class='text-lg text-white'>Mychael, Richard, Quinn, Flynn, Jacob : Game Tester</h4>";
   
   var Other = "<a href='https://discord.com/api/oauth2/authorize?client_id=887830738391662592&amp;permissions=0&amp;scope=bot' class='btn-tertiary z-0' target='_blank' rel='noopener noreferrer'>Invite Donkey Bot to your server! (Click me)</a>" +
-    "<br /><br /><h1 class='text-2xl text-white text-center'>Calculator</h1><iframe style='height: 30rem; width: 25rem;' src='https://CalculatorHTML.quinnthecoder.repl.co' class='m-auto'></iframe>";
+    "<br /><br /><h1 class='text-2xl text-white text-center'>Calculator</h1><iframe style='height: 30rem; width: 25rem;' src='https://CalculatorHTML.quinnthecoder.repl.co' class='rounded-lg m-auto'></iframe>";
   
   var SimpsonSells = "<div class='text-black w-full h-full bg-white rounded'>" +
     "<p style='text-align: center;'>" +
@@ -37,7 +37,7 @@ function App() {
   
   var tb = "<h1 class='text-white text-center text-5xl'>TurboMan V1.0 Snapshot 3!</h1><br /><p class='text-white text-xl'>Put any bugs in the chat below, thanks!</p><br />" +
     "<iframe style='height: 90vh;' src='../V1.0S3/index.html' class='w-11/12 m-auto'></iframe><br />" +
-    "<iframe style='height: 90vh;' src='https://deadsimplechat.com/kM-pjLD77' class='w-11/12 m-auto'></iframe><br />";
+    "<iframe style='height: 90vh;' src='https://deadsimplechat.com/kM-pjLD77' class='w-11/12 m-auto rounded-lg'></iframe><br />";
   
   function iframe(id, content, idBtn) {
     document.getElementById(id).innerHTML = content;
