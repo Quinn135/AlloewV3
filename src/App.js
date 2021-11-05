@@ -36,8 +36,8 @@ function App() {
     "<p style='text-align: center;'><br><a class='pure-button' href='#' download='https://i.ibb.co/5FWsvqW/Simpson4-5.png';' width='100' height='25'>Download</button></p></div>";
   
   var tb = "<h1 class='text-white text-center text-5xl'>TurboMan V1.0 Snapshot 3!</h1><br /><p class='text-white text-xl'>Put any bugs in the chat below, thanks!</p><br />" +
-    "<iframe style='height: 90vh;' src='../V1.0S3/index.html' class='w-11/12 m-auto'></iframe><br />" +
-    "<iframe style='height: 90vh;' src='https://deadsimplechat.com/kM-pjLD77' class='w-11/12 m-auto rounded-lg'></iframe><br />";
+    "<iframe style='height: 80vh;' src='../V1.0S3/index.html' class='w-11/12 m-auto'></iframe><br />" +
+    "<iframe style='height: 80vh;' src='https://deadsimplechat.com/kM-pjLD77' class='w-11/12 m-auto rounded-lg'></iframe><br />";
   
   function iframe(id, content, idBtn) {
     document.getElementById(id).innerHTML = content;
