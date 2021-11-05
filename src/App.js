@@ -80,7 +80,7 @@ function App() {
 
   return (
     <main class="m-auto">
-      <div id="buttons" class="section sticky z-50">
+      <div id="buttons" class="section md:sticky z-50">
         <button class="menu-btn-selected" id="h"
           onClick={() => iframe('section', Home, "h")}
         >Home</button>
