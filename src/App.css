@@ -1,3 +1,5 @@
+@tailwind components;
+
 .hide{
   display: none !important;
 }
@@ -22,28 +24,46 @@
     @apply bg-gray-700 text-gray-100 text-xl rounded
     hover:border-blue-500 border-b-8 active:translate-y-0.5
     transform transition-all w-full border-gray-100 p-2
-    text-center m-1 active:border-blue-700 bg-white;
+    text-center m-1 active:border-blue-700;
   }
   .menu-btn-selected{
     @apply bg-gray-600 text-gray-100 text-xl rounded
     hover:border-blue-500 border-b-8 active:translate-y-0.5
     transform transition-all w-full border-blue-600 p-2
-    text-center m-1 active:border-blue-700 bg-white;
+    text-center m-1 active:border-blue-700;
   }
   .section {
     @apply top-0 flex flex-wrap sm:flex-nowrap text-white
-    w-full bg-gray-900 m-auto p-2 rounded shadow-xl
+    w-full bg-gray-900 m-auto p-2 shadow-xl
     text-center;
+  }
+  .section-menu-bg {
+    @apply top-0 text-white m-auto flex justify-center
+    w-full bg-gray-900 p-2 shadow-2xl
+    text-center whitespace-nowrap;
+  }
+  .section-menu-btn {
+    @apply flex flex-wrap sm:flex-nowrap w-full justify-center;
   }
   .section-flex {
     @apply top-0 flex flex-col text-center shadow-xl
-    w-full bg-gray-900 m-auto p-2 rounded text-white;
+    w-full bg-gray-900 m-auto p-2 text-white;
   }
   .section-b {
     @apply bottom-0 flex flex-col flex-wrap sm:flex-nowrap text-white
-    w-full bg-gray-900 m-auto p-2 rounded shadow-xl
+    w-full bg-gray-900 m-auto p-2 shadow-xl
     text-center justify-center;
   }
+}
+
+@media (min-width: 1024px) {
+  .section-menu-btn {
+    width: 50rem
+  }
+}
+
+::selection{
+  background-color: #141414;
 }
 
 .pure-button {

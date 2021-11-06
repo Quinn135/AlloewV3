@@ -14,7 +14,7 @@ function App() {
     "<br /><h4 class='text-lg text-white'>Mychael, Richard, Quinn, Flynn, Jacob : Game Tester</h4>";
   
   var Other = "<a href='https://discord.com/api/oauth2/authorize?client_id=887830738391662592&amp;permissions=0&amp;scope=bot' class='btn-tertiary z-0' target='_blank' rel='noopener noreferrer'>Invite Donkey Bot to your server! (Click me)</a>" +
-    "<br /><br /><h1 class='text-2xl text-white text-center'>Calculator</h1><iframe style='height: 30rem; width: 25rem;' src='https://CalculatorHTML.quinnthecoder.repl.co' class='rounded-lg m-auto'></iframe>";
+    "<br /><br /><h1 class='text-2xl text-white text-center'>Calculator</h1><a style='color: #0070ff;' target='_blank' href='https://CalculatorHTML.quinnthecoder.repl.co'>Calculator</a><iframe style='height: 30rem; width: 25rem;' src='https://CalculatorHTML.quinnthecoder.repl.co' class='rounded-lg m-auto'></iframe>";
   
   var SimpsonSells = "<div class='text-black w-full h-full bg-white rounded'>" +
     "<p style='text-align: center;'>" +
@@ -41,35 +41,35 @@ function App() {
   
   function iframe(id, content, idBtn) {
     document.getElementById(id).innerHTML = content;
-    if (idBtn == "h") {
+    if (idBtn === "h") {
       document.getElementById(idBtn).classList = "menu-btn-selected";
       document.getElementById("tm").classList = "menu-btn";
       document.getElementById("c").classList = "menu-btn";
       document.getElementById("ss").classList = "menu-btn";
       document.getElementById("op").classList = "menu-btn";
     }
-    if (idBtn == "tm") {
+    if (idBtn === "tm") {
       document.getElementById("h").classList = "menu-btn";
       document.getElementById("tm").classList = "menu-btn-selected";
       document.getElementById("c").classList = "menu-btn";
       document.getElementById("ss").classList = "menu-btn";
       document.getElementById("op").classList = "menu-btn";
     }
-    if (idBtn == "c") {
+    if (idBtn === "c") {
       document.getElementById("h").classList = "menu-btn";
       document.getElementById("tm").classList = "menu-btn";
       document.getElementById("c").classList = "menu-btn-selected";
       document.getElementById("ss").classList = "menu-btn";
       document.getElementById("op").classList = "menu-btn";
     }
-    if (idBtn == "ss") {
+    if (idBtn === "ss") {
       document.getElementById("h").classList = "menu-btn";
       document.getElementById("tm").classList = "menu-btn";
       document.getElementById("c").classList = "menu-btn";
       document.getElementById("ss").classList = "menu-btn-selected";
       document.getElementById("op").classList = "menu-btn";
     }
-    if (idBtn == "op") {
+    if (idBtn === "op") {
       document.getElementById("h").classList = "menu-btn";
       document.getElementById("tm").classList = "menu-btn";
       document.getElementById("c").classList = "menu-btn";
@@ -79,8 +79,9 @@ function App() {
   };
 
   return (
-    <main class="m-auto">
-      <div id="buttons" class="section md:sticky z-50">
+    <main class="m-auto text-center">
+      <div id="buttons" class="section-menu-bg md:sticky z-50">
+        <div class="section-menu-btn">
         <button class="menu-btn-selected" id="h"
           onClick={() => iframe('section', Home, "h")}
         >Home</button>
@@ -96,14 +97,14 @@ function App() {
         <button class="menu-btn" id="op"
           onClick={() => iframe('section', Other, "op")}
         >Other Projects</button>
-      </div>
-      
+      </div></div>
       <div id="section" class="section-flex">
         <h1 class='text-5xl text-white m-3'>Welcome to Alloew!</h1>
         <br /><h4 class='text-lg text-white'>A website where me and my friends make things for fun!</h4>
         <img src='../alloew.png' class='m-auto w-1/3' />
       </div>
-      <br />
+      <div>
+      </div>
       <div class="section-b">
         <h1 class="text-xl">Contact Me : </h1>
         <a class="text-blue-600" target='_blank' rel='noopener noreferrer' href="mailto:quinn.flynn.coop@gmail.com">quinn.flynn.coop@gmail.com</a>
