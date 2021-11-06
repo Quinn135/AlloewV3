@@ -54,6 +54,15 @@
     w-full bg-gray-900 m-auto p-2 shadow-xl
     text-center justify-center;
   }
+  .active{
+    @apply border-blue-600;
+  }
+  h1{
+    @apply text-6xl;
+  }
+  h3{
+    @apply text-3xl mb-1 font-semibold;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -64,6 +73,16 @@
 
 ::selection{
   background-color: #141414;
+  color: white;
+}
+
+hr{
+  width: 90%;
+  margin: auto;
+  border-radius: 9999px;
+  height: 0.4rem;
+  margin-top: 1rem;
+  background-color: gray;
 }
 
 .pure-button {
