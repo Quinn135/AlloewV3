@@ -1,5 +1,5 @@
 import { Component } from 'react';
-import './App.scss';
+import './App.css';
 
 class Home extends Component{
   render() {
@@ -8,7 +8,7 @@ class Home extends Component{
         <h1 class='text-5xl text-white m-3'>Welcome to Alloew!</h1>
         <br />
         <h4 class='text-lg text-white'>A website where me and my friends make things for fun!</h4>
-        <img src='../alloew.png' class='m-auto w-1/3' />
+        <img alt="Alloew logo" src='../alloew.png' class='m-auto w-1/3' />
       </div>
     )
   }

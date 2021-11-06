@@ -1,5 +1,5 @@
 import { Component } from 'react';
-import './App.scss';
+import './App.css';
 
 class Credits extends Component{
   render() {

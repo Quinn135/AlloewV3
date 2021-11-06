@@ -3,9 +3,9 @@ import { GrTextAlignFull } from 'react-icons/gr';
 import { BrowserRouter as Router, Route, Routes, NavLink } from 'react-router-dom';
 import Turboman from './turboman';
 import Credits from './credits';
-import SimpsonSells from './simpsonsells';
+import AlloewSells from './alloewsells';
 import Other from './other';
-import './App.scss';
+import './App.css';
 import Home from './home';
 
 function App() {
@@ -23,7 +23,7 @@ function App() {
           <NavLink id="credit" to="/credits" className="menu-btn">
               <GrTextAlignFull size="30" class="m-auto" /></NavLink>
             
-          <NavLink id="simpson" to="/simpsonsells" className="menu-btn">
+          <NavLink id="simpson" to="/alloewsells" className="menu-btn">
               <FaStoreAlt size="30" class="m-auto" /></NavLink>
             
           <NavLink id="other" to="/other" className="menu-btn">
@@ -34,7 +34,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />}/>
           <Route path="/turboman" element={<Turboman/>} />
-          <Route path="/simpsonsells" element={<SimpsonSells />} />
+          <Route path="/alloewsells" element={<AlloewSells />} />
           <Route path="/credits" element={<Credits />} />
           <Route path="/other" element={<Other />} />
         </Routes>
