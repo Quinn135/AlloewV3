@@ -20,6 +20,9 @@ class TurboManFrame extends Component{
 }
 
 class Turboman extends Component{
+  function randTBV(){
+    ran
+  }
   render() {
     return (
       <div class="section-flex">
