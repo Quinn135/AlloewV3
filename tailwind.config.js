@@ -9,9 +9,19 @@ module.exports = {
           '0%': { top: '1000px' },
           '100%': {top: '0px'},
         },
+        open: {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' },
+        },
+        close: {
+          '100%': { opacity: '0', height: '2rem' },
+          '0%': { opacity: '1', height: '100%' },
+        },
       },
       animation: {
         'move-up': 'up 1s ease-in-out',
+        'open': 'open 1s ease-in-out',
+        'close': 'close 1s ease-in-out',
       },
       colors: {
         gray: {

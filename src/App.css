@@ -68,6 +68,9 @@
   h3{
     @apply text-3xl mb-1 font-semibold;
   }
+  details[open] summary ~ *{
+    @apply animate-open;
+  }
 }
 
 @media (min-width: 1024px) {

@@ -17,7 +17,7 @@ class Turboman extends Component{
         <a href="#">
           <details class="btn-tertiary-no-hover">
           <summary>Versions</summary>
-          <div class="flex">
+          <div class="block">
             <button onClick={() => TB("../V1.0S4", "V1.0 Snapshot 4")} class="btn-second flex-1">V1.0 Snapshot 4</button>
             <button onClick={() => TB("../V1.0S3", "V1.0 Snapshot 3")} class="btn-second flex-1">V1.0 Snapshot 3</button>
             <button onClick={() => TB("../V1.0S2", "V1.0 Snapshot 2")} class="btn-second flex-1">V1.0 Snapshot 2</button>
