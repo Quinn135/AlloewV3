@@ -27,13 +27,13 @@ class AlloewSells extends Component{
           <p class="text-center">
           If you don't buy this then your a SIMP son. (because simpson.. get it?)</p>
           <br />
-          <StoreItem author="Jacob" title="Colorless Homer" imgSrc="..\SimpsonSells\Colorless Homer.png"/>
-          <StoreItem author="Jacob" title="Homer is fine" imgSrc="..\SimpsonSells\Homer is Fine.png"/>
-          <StoreItem author="Jacob" title="Colored Homer" imgSrc="..\SimpsonSells\Colored Homer.png"/>
-          <StoreItem author="Jacob" title="Retro Homer" imgSrc="..\SimpsonSells\Retro Homer.png"/>
-          <StoreItem author="Jacob" title="homer pregnant with homer inside homers eyes that is throwing up homer thats going to fight homer" imgSrc="..\SimpsonSells\homer pregnant with homer inside homers eyes that is throwing up homer thats going to fight homer.png"/>
-          <StoreItem author="Jacob" title="Ched Bimpson VS Homer Simpson" imgSrc="..\SimpsonSells\Ched Bimpson VS Homer Simpson.gif"/>
-          <StoreItem author="Quinn" title="Fred Simmer" imgSrc="..\SimpsonSells\Fred Simmer.png"/>
+          <StoreItem author="Jacob" title="Colorless Homer" imgSrc="..\AlloewSells\Colorless Homer.png"/>
+          <StoreItem author="Jacob" title="Homer is fine" imgSrc="..\AlloewSells\Homer is Fine.png"/>
+          <StoreItem author="Jacob" title="Colored Homer" imgSrc="..\AlloewSells\Colored Homer.png"/>
+          <StoreItem author="Jacob" title="Retro Homer" imgSrc="..\AlloewSells\Retro Homer.png"/>
+          <StoreItem author="Jacob" title="homer pregnant with homer inside homers eyes that is throwing up homer thats going to fight homer" imgSrc="..\AlloewSells\homer pregnant with homer inside homers eyes that is throwing up homer thats going to fight homer.png"/>
+          <StoreItem author="Jacob" title="Ched Bimpson VS Homer Simpson" imgSrc="..\AlloewSells\Ched Bimpson VS Homer Simpson.gif"/>
+          <StoreItem author="Quinn" title="Fred Simmer" imgSrc="..\AlloewSells\Fred Simmer.png"/>
         </div>
       </div>
     )
