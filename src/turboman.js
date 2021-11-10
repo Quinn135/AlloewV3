@@ -14,10 +14,10 @@ class Turboman extends Component{
         <br />
         <p class='text-white text-xl'>Put any bugs in the chat below, thanks!</p>
         <br />
-        <a href="#">
-          <details class="btn-tertiary-no-hover">
-          <summary>Versions</summary>
-          <div class="block">
+        <details class="btn-tertiary-no-hover">
+          <summary>Versions (Click)</summary>
+            <div class="block">
+            <button onClick={() => TB("../V1.0S4.1", "V1.0 Snapshot 4.1")} class="btn-second flex-1">V1.0 Snapshot 4.1</button>
             <button onClick={() => TB("../V1.0S4", "V1.0 Snapshot 4")} class="btn-second flex-1">V1.0 Snapshot 4</button>
             <button onClick={() => TB("../V1.0S3", "V1.0 Snapshot 3")} class="btn-second flex-1">V1.0 Snapshot 3</button>
             <button onClick={() => TB("../V1.0S2", "V1.0 Snapshot 2")} class="btn-second flex-1">V1.0 Snapshot 2</button>
@@ -33,8 +33,7 @@ class Turboman extends Component{
             <button onClick={() => TB("../A2.0", "A2.0")} class="btn-tertiary flex-1">A2.0</button>
             <button onClick={() => TB("../A1.0", "A1.0")} class="btn-tertiary flex-1">A1.0</button>
           </div>
-          </details>
-        </a>
+        </details>
         <iframe id="Turboman" title="Turboman" style={{ 'height': '80vh', }} src="B1.1.1" class='w-11/12 m-auto'></iframe>
         
         <br />
